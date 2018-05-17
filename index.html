@@ -139,20 +139,14 @@ a{text-decoration: none;}
     </div>
   </div>
 </div>
-
-<!-- Footer -->
+<!-- footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-margin-top w3-opacity"> 
  <div class="w3-xlarge w3-padding-32">
    <a href="http://tamshen.com" target="_blank" class="w3-hover-text-indigo w3-show-inline-block"><img height="16px" src="https://tamshen.com/usr/themes/DONG/img/TAMSHEN.svg" /></a>
  </div>
   <p style="font-weight:normal">© <a href="https://github.com/Tamshen/MDZZ.SPACE">MDZZ.SPACE(20180517)</a></p>
 </footer>
-
 <script>
-
-	
-	
-
 function mdzzo() {
     document.getElementsByClassName("w3-sidenav")[0].style.width = "100%";
     document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
@@ -172,7 +166,6 @@ var s4 = day4.getDate();
 var day5 = new Date();
 day5.setTime(day5.getTime()+72*60*60*1000);
 var s5 = day5.getDate();
-
 //自定义
 var zdwz = document.getElementsByClassName('mdzzbq').item(0).getElementsByTagName('p');
 zdwz[0].innerHTML = s2 + "，今天要写日记，等我把日记记完再跟你们玩";
@@ -181,8 +174,6 @@ zdwz[2].innerHTML = "正在使用TNT写代码中：" ;
 zdwz[3].innerHTML = "不了不了，这伤身体" ; 
 zdwz[4].innerHTML = "整天记记记，记你大爷，</br>这么能记咋不去写小说啊？" ; 
 zdwz[5].innerHTML = "就你那两下还能阻止我记仇？" ; 
-
-
 //生成和关闭
 function sc(cs){
 	if(cs=="o"){
@@ -194,8 +185,6 @@ function sc(cs){
     imageElement.src = "";
 	}
 }
-
-
 //加粗 会玄学报错
 function jc(){
 	var check = document.getElementsByTagName('input')[0];
@@ -226,10 +215,6 @@ function jz(){
 		}
 	}
 }
-
-
-
-
 //截图渲染转换
 function draw(bh){
 html2canvas(document.querySelector("#capture" + bh)).then(canvas => {
@@ -238,15 +223,10 @@ html2canvas(document.querySelector("#capture" + bh)).then(canvas => {
     imageElement.src = myImage;
 });	
 }
-
 console.log("\n %c © MDZZ.SPACE(20180517) | TAMSHEN ","color:#ffffff;    background-image: linear-gradient(to right, #2aa8f2, #9db1fa);line-height: 3;padding:5px 0;border-radius:5px;")
 console.log("\n提示：错误已经全部屏蔽\n欢迎提交反馈和星星 ：https://github.com/Tamshen/MDZZ.SPACE ")
-
-
 //屏蔽掉错误，调试请关闭
 window.onerror=function(){return true;}
-
 </script> 
-
 </body>
 </html>
