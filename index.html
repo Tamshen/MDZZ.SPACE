@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,6 +12,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link href="https://q.qlogo.cn/g?b=qq&nk=774024602@qq.com&s=100" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+<script>
+if(!-[1,]){
+  var ck;
+	ck=confirm("本网站不支持IE内核所有浏览器！\r\n点击确定下载Google浏览器"); //在页面上弹出对话框
+	if(ck==true)window.open("http://browsehappy.osfipin.com/down/win/chrome.html");    
+}
+</script>
 <style>
 body,h1 {font-family: "Montserrat", sans-serif;}
 img{margin-bottom:-7px ;}
@@ -35,7 +43,7 @@ a{text-decoration: none;}
   <div class="w3-clear"></div>
   <h1>MDZZ.SPACE</h1>
   <p>欢迎来到 MDZZ 空间，你是 MM 还是 GG。</p>
-  <div class="w3-small">点下面面文字开始记仇</div>
+  <div class="w3-small"><strong>点下面文字开始记仇仇</br>提示:本网站不支持IE内核所有浏览器！</strong></div>
   <p>
   	<input class="w3-check" type="checkbox" name="vehicle" value="粗体" onclick="jc();" /> 粗体
   	<input class="w3-check" type="checkbox" name="vehicle" value="居中" checked="checked" onclick="jz();" /> 居中
@@ -223,6 +231,12 @@ html2canvas(document.querySelector("#capture" + bh)).then(canvas => {
     imageElement.src = myImage;
 });	
 }
+
+
+
+
+  
+
 console.log("\n %c © MDZZ.SPACE(20180517) | TAMSHEN ","color:#ffffff;    background-image: linear-gradient(to right, #2aa8f2, #9db1fa);line-height: 3;padding:5px 0;border-radius:5px;")
 console.log("\n提示：错误已经全部屏蔽\n欢迎提交反馈和星星 ：https://github.com/Tamshen/MDZZ.SPACE ")
 //屏蔽掉错误，调试请关闭
