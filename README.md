@@ -6,7 +6,7 @@ https://mdzz.space/ Site source code.
 利用html2canvas做的表情包生成
 
 
-#不支持ie所有内核！请用火狐，谷歌等浏览器
+# 不支持ie所有内核！请用火狐，谷歌等浏览器
 
 
 # Effect 
