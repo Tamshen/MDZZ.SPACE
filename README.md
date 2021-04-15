@@ -1,7 +1,5 @@
 # MDZZ.SPACE
 
-https://mdzz.space/ Site source code.
-
 
 利用html2canvas做的表情包生成
 
@@ -24,6 +22,6 @@ https://mdzz.space/ Site source code.
 
 
 
-  [1]: https://mdzz.space/
+  [1]: https://tamshen.github.io/MDZZ.SPACE/index.html
   [2]: https://github.com/Tamshen/MDZZ.SPACE/blob/master/data/img.png
   [3]: http://html2canvas.hertzen.com
